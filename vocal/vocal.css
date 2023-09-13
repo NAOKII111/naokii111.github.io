@@ -1,0 +1,308 @@
+
+
+body,
+html {
+    background-image: url(../img/fon.vokal.jpg);
+    overflow-x: hidden;
+}
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(139, 124, 124, 0.663);
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    
+}
+
+#checkbox-menu,
+.toggle {
+    display: none;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+   
+    
+}
+
+.menu li a {
+    color: rgba(126, 148, 176, 0.911);
+    text-decoration: none;
+    align-self: center;
+    font-size: 23px;
+    padding: 15px 20px;
+    transition: background .7s linear;
+    background-color: rgba(61, 61, 61, 0.522);
+}
+
+.menu li a:hover {
+    background: rgba(156, 67, 183, 0.105);
+    border-radius: 5px;
+}
+
+.menu li a.logo {
+    font-size: 28px;
+    margin-right: 250px;
+    background-color: rgba(171, 171, 171, 0.522);
+}
+
+.menu li a.logo:hover {
+    background: rgba(159, 0, 207, 0.105);
+    border-radius: 5px;
+
+}
+.menu li a.vokal {
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.steps h2 {
+    margin-top: 4px;
+    font-size: 20px;
+    margin-bottom: 1px;  
+  }
+  .steps-text {
+      line-height: 1px;
+      font-size: 16px;
+      margin-top: 5px;
+  
+  }
+  
+  .mbtext {
+      margin-bottom: 70px;
+      margin-top: 14px;
+  }
+  
+  .stepblock {
+      margin-top: 30px;
+      width: 300px;
+      height: 370px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+      overflow: hidden;
+  }
+  
+  .tenma{
+      
+      height: 300px;
+  }
+
+  
+.stepblock:hover {
+    background-color: #01f7ff6b;
+    color: rgba(78, 126, 146, 0.682);
+    box-shadow: 0 0 50px rgba(78, 126, 146, 7);
+    }
+    
+    .steps-container {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+  
+  .stepblock-KAITO {
+      margin-top: 30px;
+      width: 300px;
+      height: 370px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+      overflow: hidden;
+  }
+  
+  .tenma{
+      
+      height: 300px;
+  }
+
+  
+.stepblock-KAITO:hover {
+    background-color: #011fff6b;
+    color: rgba(207, 213, 227, 0.682);
+    box-shadow: 0 0 50px rgba(78, 97, 146, 7);
+    }
+    
+    .steps-container {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    
+  .stepblock-KAITO {
+    margin-top: 30px;
+    width: 300px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+    overflow: hidden;
+}
+
+
+
+
+  
+.stepblock-rin {
+    margin-top: 30px;
+    width: 300px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+    overflow: hidden;
+}
+
+.tenma{
+    
+    height: 300px;
+}
+
+
+.stepblock-rin:hover {
+  background-color: #ffd9016b;
+  color: rgba(146, 140, 78, 0.682);
+  box-shadow: 0 0 50px rgba(146, 140, 78, 7);
+  }
+  
+  .steps-container {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+
+
+  
+
+  
+.stepblock-len {
+    margin-top: 30px;
+    width: 300px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+    overflow: hidden;
+}
+
+.tenma{
+    
+    height: 300px;
+}
+
+
+.stepblock-len:hover {
+  background-color: #ffd9016b;
+  color: rgba(146, 140, 78, 0.682);
+  box-shadow: 0 0 50px rgba(146, 140, 78, 7);
+  }
+  
+  .steps-container {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  
+
+
+
+  
+
+  
+.stepblock-MEIKO {
+    
+    margin-top: 30px;
+    width: 300px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+    overflow: hidden;
+}
+
+.tenma{
+    
+    height: 300px;
+}
+
+
+.stepblock-MEIKO:hover {
+  background-color: #ff01016b;
+  color: rgba(146, 78, 78, 0.682);
+  box-shadow: 0 0 50px rgba(146, 78, 78, 7);
+  }
+  
+  .steps-container {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  
+
+  
+.stepblock-luka {
+    
+    margin-top: 30px;
+    width: 300px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 3);
+    overflow: hidden;
+}
+
+.tenma{
+    
+    height: 300px;
+}
+
+
+.stepblock-luka:hover {
+  background-color: #e601ff6b;
+  color: rgba(138, 78, 146, 0.682);
+  box-shadow: 0 0 50px rgba(138, 78, 146, 7);
+  }
+  
+  .steps-container {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .virt {
+      margin-top: 30px;
+   text-align: center;
+   color: rgb(176, 1, 1);   
+  }

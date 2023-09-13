@@ -1,0 +1,113 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 236, 221);
+}
+
+
+.eee {
+    position: relative;
+left:1450px;
+top:-200px;
+height: 500px;
+}
+
+body, 
+html {
+    overflow-x: hidden;
+   
+ background-image: url(https://klike.net/uploads/posts/2022-11/1667280306_7-18.jpg);
+ height: 1000px;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    
+}
+
+#checkbox-menu,
+.toggle {
+    display: none;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+   
+    
+}
+
+.menu li a {
+    color: rgba(255, 223, 187, 0.911);
+    text-decoration: none;
+    align-self: center;
+    font-size: 23px;
+    padding: 15px 20px;
+    transition: background .7s linear;
+    background-color: rgba(211, 143, 65, 0.541);
+}
+
+.menu li a:hover {
+    background: rgba(65, 40, 4, 0.699);
+    border-radius: 5px;
+}
+
+.menu li a.logo {
+    font-size: 28px;
+    margin-right: 250px;
+    background-color: rgba(99, 78, 47, 0.74);
+}
+
+.menu li a.logo:hover {
+    background: rgba(194, 129, 68, 0.836);
+    border-radius: 5px;
+
+}
+.menu li a.vokal {
+    margin-left: 100px;
+}
+
+
+.WxS-img {
+    height: 400px;
+    width: 600px;
+    right: 1000;
+    margin-top: 30px;
+}
+
+.logo-img  {
+    position: absolute;
+    margin-top: 10px;
+    width: 100px
+}
+
+.vokal {
+    margin:0 auto;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(114, 79, 33, 0.829);
+    
+
+    position: absolute;
+    left: 663px;
+}
+
+.logo-img:hover {
+    box-shadow: 0 0 50px rgba(146, 121, 78, 7);
+    background-color: rgba(104, 124, 105, 0.522);
+}
+
+
